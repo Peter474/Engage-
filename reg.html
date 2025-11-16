@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENGAGE | Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="reg-style.css">
+    <link rel="icon" type="image/png" href="icons/favicon-32x32.png">
+
+</head>
+<body>
+    <div class="form-container">
+        <h1><i class="fa-regular fa-clipboard"></i> Sign Up</h1>
+
+        <form id="signupForm" novalidate>
+            <!-- Name Field -->
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Full Name" required aria-label="Full Name">
+                <span class="error" id="nameError"></span>
+            </div>
+
+            <!-- Email Field -->
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Email Address" required aria-label="Email Address">
+                <span class="error" id="emailError"></span>
+            </div>
+
+            <!-- Age Field -->
+            <div class="form-group">
+                <input type="number" id="age" placeholder="Age" required aria-label="Age" min="18" max="120">
+                <span class="error" id="ageError"></span>
+            </div>
+
+            <!-- Password Field -->
+            <div class="form-group">
+                <div class="password-container">
+                    <input type="password" id="password" placeholder="Password" required aria-label="Password">
+                    <i class="fa-solid fa-eye toggle-password" role="button" tabindex="0" aria-label="Toggle password visibility" onclick="togglePassword()"></i>
+                </div>
+                <span class="error" id="passwordError"></span>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="button" class="button" onclick="saveData()">Sign Up</button>
+        </form>
+
+        <!-- Success Elements -->
+        <i id="gift" class="fa-solid fa-gift" role="button" tabindex="0" onclick="showMessage()" title="Click to see your message"></i>
+
+        <div id="message" class="success-message">
+            <p>🎉 Congratulations! You signed up successfully! 🎉</p>
+            <a href="index.html" class="return-link">Return to Home</a>
+        </div>
+    </div>
+
+    <script src="reg-script.js"></script>
+</body>
+</html>

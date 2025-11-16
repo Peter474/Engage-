@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENGAGE - Dark Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="icons/favicon-32x32.png">
+</head>
+<body>
+    <img class="hero-image" src="images/camera-photographer-monochrome-ara-güler-wallpaper.jpg" alt="Camera Photographer">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ENGAGE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#shop">Shop</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#blog">Blog</a></li>
+                            <li><a class="dropdown-item" href="#contact">Contact</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#reviews">Reviews of Our Customers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <a href="#" class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping fa-2x"></i>
+                    <span class="cart-count">0</span>
+                </a>
+                <form class="d-flex ms-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>    
+    <div class="hero-container">
+        <div class="container mt-5">
+            <h1>Welcome to</h1>
+            <h2>Dark Shop</h2>
+            <p>We're the biggest, best equipped and most advanced Web Agency in the greater Los Angeles area.</p>
+        </div>
+        <div class="button-group">
+            <a href="#shop" class="btn-primary">Learn more</a>
+        </div>
+    </div>
+
+    <button id="scrollTopBtn" class="btn btn-primary" style="position: fixed; bottom: 20px; right: 20px; display: none;">↑</button>
+
+
+    <section class="about-section">
+        <h2>Learn about us</h2>
+        <p>We have been operating for over 30 years and are Members of The Federation of Master Builders. We work on projects big and small from small residential extensions to full house and commercial builds and we are registered NHBC house builders.</p>
+    </section>
+
+    <div class="products-grid">
+        <div class="product-card">
+            <img src="images/shoes2-400x400.jpg" class="card-img-top" alt="Light Shoes">
+            <a href="Light Shoes.html" class="view-details">View Details</a>
+            <div class="card-body">
+                <p class="card-text">Light Shoes <br> £18.00</p>
+                <div class="add-to-cart">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="images/hat2-400x400.jpg" class="card-img-top" alt="Beautiful hat">
+            <a href="Beautiful Hat.html" class="view-details">View Details</a>
+            <div class="card-body">
+                <p class="card-text">Beautiful hat <br> £15.00</p>
+                <div class="add-to-cart">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="products-grid-alt">
+        <div class="product-card">
+            <img src="images/shoes-man-1-400x400.jpg" class="card-img-top" alt="Brown shoes">
+            <a href="Brown Shoes.html" class="view-details">View Details</a>
+            <div class="card-body">
+                <p class="card-text">Brown shoes <br> £15.00</p>
+                <div class="add-to-cart">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="images/bag3-400x400.jpg" class="card-img-top" alt="Brown Backpack">
+            <a href="Brown Backpack.html" class="view-details">View Details</a>
+            <div class="card-body">
+                <p class="card-text">Brown Backpack <br> £15.00</p>
+                <div class="add-to-cart">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="divider-section"></section>
+
+    <section class="best-sellers">
+        <h2>Best sellers</h2>
+        <p>Faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis rutrum. Quisque posuere enim augue, in rhoncus diam dictum non. Etiam mollis pulvinar nisl.</p>
+    </section>
+
+    <section class="best-sellers-grid">
+        <div class="product-card">
+            <img src="images/shirt1-400x400.jpg" class="card-img-top" alt="Lily Shirt">
+            <a href="Lily shirt.html" class="view-details">View Details</a>
+            <div class="card-body">
+                <p class="card-text">Lily Shirt <br> £20.00</p>
+                <div class="add-to-cart">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="images/hat1.jpg" class="card-img-top" alt="Cool Hat">
+            <a href="Cool Hat.html" class="view-details">View Details</a>
+            <div class="card-body">
+                <p class="card-text">Cool Hat <br> £12.00</p>
+                <div class="add-to-cart">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="images/shoes.jpg" class="card-img-top" alt="Basic Sandals">
+            <a href="Basic sandel.html" class="view-details">View Details</a>
+            <div class="card-body">
+                <p class="card-text">Basic Sandals <br> £20.00</p>
+                <div class="add-to-cart">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="images/shoes-man-1-400x400.jpg" class="card-img-top" alt="Brown shoes">
+            <a href="Brown Backpack.html" class="view-details">View Details</a>
+            <div class="card-body">
+                <p class="card-text">Brown shoes <br> £15.00</p>
+                <div class="add-to-cart">
+                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="divider-section-2"></section>
+
+    <section class="why-us">
+        <h2>Why our store?</h2>
+        <p>Faucibus dictum in eget metus. Duis suscipit elit sem, sed mattis tellus accumsan eget. Quisque consequat venenatis. Quisque posuere enim augue, in rhoncus diam dictum non.</p>
+    </section>
+
+    <div class="features-grid">
+        <div class="feature-item">
+            <h3>Premium Support</h3>
+            <p>Ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies nisi at scelerisque pellentesque. Nunc feugiat felis vitae aliquet consequat. Aliquam ullamcorper.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Incredible Team</h3>
+            <p>Ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies nisi at scelerisque pellentesque. Nunc feugiat felis vitae aliquet consequat. Aliquam ullamcorper.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Incredible Location</h3>
+            <p>Ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies nisi at scelerisque pellentesque. Nunc feugiat felis vitae aliquet consequat. Aliquam ullamcorper.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Facilities</h3>
+            <p>Ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies nisi at scelerisque pellentesque. Nunc feugiat felis vitae aliquet consequat. Aliquam ullamcorper.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Best Equipment</h3>
+            <p>Ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies nisi at scelerisque pellentesque. Nunc feugiat felis vitae aliquet consequat. Aliquam ullamcorper.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Excellent Service</h3>
+            <p>Ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies nisi at scelerisque pellentesque. Nunc feugiat felis vitae aliquet consequat. Aliquam ullamcorper.</p>
+        </div>
+    </div>
+    <img class="cta-image" src="images/night-hill-top-wallpaper-1920x600_57.jpg" alt="Night hill landscape">
+
+    <section class="cta-section">
+        <h2>Feeling convinced?</h2>
+        <p>I am a subtitle, feel free to change me!</p>
+        <div class="button-group">
+            <a href="#shop" class="btn-primaryy">Visit shop</a>
+        </div>
+    </section>
+
+    <section class="divider-section-3"></section>
+
+    <section class="footer-info">
+        <div class="footer-column">
+            <h3>About us</h3>
+            <p>I am text block. Click edit button to change. Lorem ipsum dolor sit amet, consectetur. I am text block. Click edit button to change. Lorem ipsum dolor sit amet, consectetur. We are the champions! We are the most amazing theme of all time, yeah.</p>
+        </div>
+        <div class="footer-column">
+            <h3>Opening Hours</h3>
+            <ul>
+                <li>Monday 10AM – 9PM</li>
+                <li>Tuesday 10AM – 9PM</li>
+                <li>Wednesday 10AM – 9PM</li>
+                <li>Thursday 10AM – 9PM</li>
+                <li>Friday 10AM – 9PM</li>
+                <li>Weekends 10AM – 9PM</li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Top rated</h3>
+            <ul class="top-products">
+                <li><a href="Basic sandel.html" target="_blank">Basic Sandals - £20.00</a><img src="icons/shoes.jpg" alt="Basic Sandals"></li>
+                <li><a href="Light Shoes.html" target="_blank">Light Shoes - £18.00</a><img src="icons/shoes2-400x400.jpg" alt="Light Shoes"></li>
+                <li><a href="White bag.html" target="_blank">White Bag - £35.00</a><img src="icons/bag2-1.jpg" alt="White Bag"></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Contact Details</h3>
+            <ul>
+                <li><i class="fa-solid fa-location-dot"></i> Manchester Road 123-78B, Silictown 7854MD, Great Country</li>
+                <li><i class="fa-solid fa-phone"></i> +46 123 456 789</li>
+                <li><i class="fa-solid fa-envelope"></i> hello@sitename.com</li>
+                <li><i class="fa-solid fa-globe"></i> http://www.sitename.com</li>
+            </ul>
+        </div>
+    </section>
+   <footer class="footer">
+        <ul class="social-media-links">
+            <li><a href="https://www.facebook.com/peter.emad.658485" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/peter_emad111/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/peter-emad-4911a9328/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+        <p>&copy; 2025 ENGAGE Dark Shop By Peter Emad. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
